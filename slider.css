@@ -1,0 +1,13 @@
+.carousel-item img {
+	width: 320px;
+	height: 400px;
+	display: grid;
+	place-items: center;
+}
+.carousel {
+	display: grid;
+	place-items: center;
+	background-color: black;
+	width: 320px;
+	height: 400px;
+}

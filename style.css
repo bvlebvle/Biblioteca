@@ -1,0 +1,44 @@
+body {
+	overflow: auto;
+	background-color: #fffcf2;
+}
+header {
+	padding: 12px;
+}
+#login {
+	background-color: #ffa62b;
+	color: white;
+	border: 2px solid #e59500;
+}
+#login:hover {
+	background-color: #f48c06;
+}
+#register {
+	background-color: #990100;
+	color: white;
+	border: 2px solid #840032;
+}
+#register:hover {
+	background-color: #6a040f;
+}
+label {
+	margin-top: 1rem;
+}
+#login-rol {
+	margin-top: 30px;
+}
+a {
+	text-decoration: none;
+}
+.m-auto {
+	margin: auto;
+}
+.p-absolute {
+	position: absolute;
+}
+.t-12 {
+	top: 12px;
+}
+.r-12 {
+	right: 12px;
+}

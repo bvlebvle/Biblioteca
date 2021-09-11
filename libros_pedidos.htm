@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+			crossorigin="anonymous"
+		/>
+
+		<!-- sidebar css -->
+		<link href="sidebar.css" rel="stylesheet" type="text/css" />
+
+		<!-- catalago libros css -->
+		<link href="catalogo.libros.css" rel="stylesheet" type="text/css" />
+
+		<!-- estilo personalizado CSS -->
+		<link href="style.css" rel="stylesheet" type="text/css" />
+
+		<title>Biblioteca VP</title>
+	</head>
+	<body>
+		<div class="container" name="header">
+			<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+				<a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+					<img src="img/logo.svg" width="40" height="32" />
+					<span class="fs-4">Biblioteca Violeta Parra</span>
+				</a>
+
+				<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+					<li><a href="perfil.usuario.htm" class="nav-link px-2 link-dark">Catálago</a></li>
+					<li><a href="libros_pedidos.htm" class="nav-link px-2 link-dark">Solicitados</a></li>
+				</ul>
+
+				<div class="col-md-3 text-end">
+					<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+						<li><a href="libros_pedidos.htm" class="nav-link px-2 link-dark">Usuario</a></li>
+						<li><a href="index.html" class="nav-link px-2 link-secondary">Salir</a></li>
+					</ul>
+				</div>
+			</header>
+		</div>
+
+		<div class="text-center titulo-catalago">
+			<h2>Libros solicitados</h2>
+		</div>
+
+		<div class="catalago container">
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-4 libros">
+					<div class="card text-center">
+						<a href="devolver_libro9.htm"> <img src="img/libros/libro9.jpeg" class="card-img-top" alt="fahrenheit" /></a>
+						<div class="card-body">
+							<h5 class="card-title">Fahrenheit</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Ray Bradbury</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 libros">
+					<div class="card text-center">
+						<a href="devolver_libro3.htm"> <img src="img/libros/libro3.jpeg" class="card-img-top" alt="lo mejor de ir es volver" /></a>
+						<div class="card-body">
+							<h5 class="card-title">Lo mejor de ir es volver</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Albert Espinosa</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-4 libros">
+					<div class="card text-center">
+						<a href="devolver_libro10.htm"> <img src="img/libros/libro10.jpeg" class="card-img-top" alt="yo robot" /></a>
+						<div class="card-body">
+							<h5 class="card-title">Yo robot</h5>
+							<h6 class="card-subtitle mb-2 text-muted">Isaac Asimov</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
