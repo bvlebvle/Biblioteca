@@ -4,7 +4,6 @@
 	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		$_SESSION['logged'] = true;
 		$_SESSION['rol'] = $_POST['rol'];
-
 		if ($_POST['rol'] == 1){
 			header("Location: /administrador/perfil.administrador.php");
 		} else if ($_POST['rol'] == 2){
@@ -16,7 +15,6 @@
 		if ($_SESSION['rol'] == 1){
 			header("Location: /administrador/perfil.administrador.php");
 		} else if ($_SESSION['rol'] == 2){
-			$_SESSION['logged'] == true;
 			header("Location: /usuario/perfil.usuario.htm");
 		}
 	}

@@ -1,9 +1,7 @@
 
 <?php
 	session_start();
-	
 	print_r($_SESSION);
-
 	if ($_SESSION['logged'] == true){
 		echo "acceso permitido";
 	} else {
