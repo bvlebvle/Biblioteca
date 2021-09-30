@@ -1,6 +1,3 @@
-<?php
-	$paginaCorriente=basename($_SERVER['REQUEST_URI'], '?'. $_SERVER['QUERY_STRING']);
-?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -41,10 +38,9 @@
 				<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"></ul>
 
 				<div class="col-md-3 text-end">
-				<ul class="nav nav-pills col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-					<li class="nav-item"><a href="/index.php" class="nav-link px-2 link-dark <?php if ($paginaCorriente == "index.php") {echo "active";}?>">Home</a></li>
-					<li class="nav-item"><a href="/login/login.php" class="nav-link px-2 link-secondary <?php if ($paginaCorriente == "login.php") {echo "active";}?>">Ingresar</a></li>
-					<li class="nav-item"><a href="/registro/registrarse.php" class="nav-link px-2 link-secondary <?php if ($paginaCorriente == "registrarse.php") {echo "active";}?>">Registrarse</a></li>
+				<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+					<li><a href="/index.php" class="nav-link px-2 link-dark">Home</a></li>
+					<li><a href="/logout.php" class="nav-link px-2 link-secondary">Salir</a></li>
 				</ul>
 			</div>
 			</header>

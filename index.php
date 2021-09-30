@@ -13,7 +13,7 @@ include("./header.php");
 						<a href="/login/login.php">
 							<button type="button" id="login" class="btn btn-primary btn-lg px-4 me-md-2">Iniciar sesión</button>
 						</a>
-						<a href="/registro/registrarse.htm">
+						<a href="/registro/registrarse.php">
 							<button type="button" id="register" class="btn btn-outline-secondary btn-lg px-4">Registrarse</button>
 						</a>
 					</div>
@@ -82,10 +82,4 @@ include("./header.php");
 		<?php
 			include("./footer.php"); 
 		?>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-			crossorigin="anonymous"
-		></script>
-	</body>
-</html>
+		
